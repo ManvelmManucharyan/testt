@@ -1,0 +1,43 @@
+.naive-table thead th {
+    text-align: center;
+}
+
+.naive-table thead tr:first-child th:nth-child(odd) {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.naive-table thead tr:first-child th:nth-child(even) {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.naive-table thead tr:nth-child(2) th:nth-child(odd) {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.naive-table thead tr:nth-child(2) th:nth-child(even) {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.naive-table tbody tr {
+    transition: --n-td-color 0.3s;
+    text-align: center;
+}
+
+.naive-table tbody tr:nth-child(even) {
+    --n-td-color: #f9f9f9;
+}
+
+.naive-table tbody tr:hover {
+    --n-td-color: rgba(52, 152, 219, 0.1);
+}
+
+th.fixed-column, 
+td.fixed-column {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

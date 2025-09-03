@@ -1,0 +1,37 @@
+/* src/assets/css/popover-table.css */
+.popover-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 300px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .popover-table th,
+  .popover-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .popover-table thead th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+  }
+  
+  .popover-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .popover-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .popover-table th {
+    color: #333;
+  }
+  
+  .popover-table td {
+    color: #555;
+  }
+  

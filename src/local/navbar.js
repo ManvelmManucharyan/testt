@@ -1,0 +1,28 @@
+export default {
+  en: {
+    logout: 'Logout',
+    settings: 'Settings',
+    actions: 'Actions',
+    sync_jira: 'Sync Jira',
+    sync_rates: 'Sync rates',
+    jira_sync_params: 'Jira Sync Parameters',
+    rates_sync_params: 'Rates Sync Parameters',
+    sync_worklogs_since: 'Sync worklogs since',
+    from: 'From',
+    to: 'To',
+    sync_deleted_worklogs_since: 'Sync deleted worklogs since:',
+  },
+  ru: {
+    logout: 'Выйти',
+    actions: 'Действия',
+    sync_jira: 'Синхронизировать Jira',
+    sync_rates: 'Синхронизировать ставки',
+    jira_sync_params: 'Параметры синхронизации Jira',
+    rates_sync_params: 'Параметры синхронизации ставок',
+    sync_worklogs_since: 'Синхронизировать треки после',
+    from: 'С',
+    to: 'По',
+    sync_deleted_worklogs_since: 'Синхронизировать удаленные треки после:',
+    settings: 'Настройки',
+  },
+};

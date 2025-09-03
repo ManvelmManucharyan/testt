@@ -1,0 +1,14 @@
+:3000
+
+encode gzip zstd
+
+handle /healthz* {
+    respond "OK"
+}
+
+handle {
+    route {
+        try_files {path} /index.html
+        file_server
+    }
+}
